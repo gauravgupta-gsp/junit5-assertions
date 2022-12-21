@@ -15,8 +15,7 @@ public class DerivedClass implements Animal{
 	}
 	
 	public void move() {
-		throw new UnsupportedOperationException("This method is yet to be implemented..");
-		
+		throw new UnsupportedOperationException("This method is yet to be implemented..");		
 	}
 	
 

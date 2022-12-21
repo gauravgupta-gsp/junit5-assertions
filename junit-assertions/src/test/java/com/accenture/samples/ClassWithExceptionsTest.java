@@ -18,12 +18,9 @@ public class ClassWithExceptionsTest {
 	   }
 	
 	    @Test
-	    public void ShouldReturnNullException() throws Exception
-	   {
-			           
-		 ClassWithExceptions classWithException = new ClassWithExceptions();
-		 
-		assertThrows(NullPointerException.class, () -> classWithException.sayHello(null),"Name cannot be null");
+	    public void ShouldReturnNullException() throws Exception {
+	    	ClassWithExceptions classWithException = new ClassWithExceptions();		 
+	    	assertThrows(NullPointerException.class, () -> classWithException.sayHello(null),"Name cannot be null");
 			            
 	   }
 }
